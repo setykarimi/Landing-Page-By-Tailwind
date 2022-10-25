@@ -67,7 +67,7 @@
     <!-- Feature Section -->
     <section id="features">
         <!-- Flex Container -->
-        <div class="container flex flex-col px-4 mx-auto mt-10 space-y-12 md:space-y-0 md:flex-row">
+        <div class="container flex flex-col px-4 mx-auto mt-10 space-y-12 md:space-y-0 md:flex-row items-center">
             <!-- Numbered List -->
             <div class="flex flex-col space-y-8 md:w-1/2">
                 <!-- List Item 1 -->
@@ -225,7 +225,7 @@
     <!-- CTA section -->
     <section id="CTA" class="bg-brightRed">
         <!-- Flex Container -->
-        <div class="container flex flex-col items-center justify-between px-6 py-24 mx-auto space-y-12 md:py-12 md:flex-row md:space-y-0">
+        <div class="container flex flex-col items-center justify-between px-6 py-24 mx-auto space-y-12 md:py-10 md:flex-row md:space-y-0">
             <!-- Heading -->
             <h2 class="text-xl font-bold leading-tight text-center text-white md:text-2xl md:max-w-xl md:text-right">
                 مدیریت آسان تیم با منیج
@@ -233,12 +233,80 @@
             <!-- Button -->
             <div>
                 <a href="#"
-                class="hidden md:block p-3 px-6 pt-2 text-brightRed bg-white rounded-full baseline hover:bg-gray-300">
+                class="md:block p-3 px-6 pt-2 text-brightRed bg-white rounded-full baseline hover:bg-gray-300">
                 شروع کنید
             </a>
             </div>
         </div>
     </section>
+
+    <!-- Footer -->
+    <footer class="bg-veryDarkBlue">
+        <div class="container flex flex-col-reverse justify-between px-6 py-10 mx-auto space-y-8 md:flex-row md:space-y-0">
+            <!-- Logo and social links container -->
+            <div class="flex flex-col-reverse items-center justify-between space-y-12 md:flex-col md:space-y-0 md:items-start">
+                <div class="mx-auto my-6 text-center text-white md:hidden">
+                    copyright &copy: 2022, all Right Reserved
+                </div>
+                <!-- logo -->
+                <div>
+                    <img src="img/logo-white.svg" alt="logo" class="h-8">
+                </div>
+                <!-- Social Links Container -->
+                <div class="flex justify-center space-x-4 space-x-reverse">
+                   <!-- Link 1 -->
+                    <a href="#">
+                        <img src="img/icon-facebook.svg" alt="" class="h-8">
+                    </a>
+                    <!-- Link 2 -->
+                    <a href="#">
+                        <img src="img/icon-youtube.svg" alt="" class="h-8">
+                    </a>
+                    <!-- Link 3 -->
+                    <a href="#">
+                        <img src="img/icon-twitter.svg" alt="" class="h-8">
+                    </a>
+                    <!-- Link 4 -->
+                    <a href="#">
+                        <img src="img/icon-pinterest.svg" alt="" class="h-8">
+                    </a>
+                     <!-- Link 5 -->
+                     <a href="#">
+                        <img src="img/icon-instagram.svg" alt="" class="h-8">
+                    </a>
+                </div>
+            </div>
+            <!-- List Container -->
+            <div class="flex justify-around space-x-20 md:space-x-30 space-x-reverse">
+                <div class="flex flex-col space-y-3 text-white">
+                    <a href="#" class="hover:text-brightRed">خانه</a>
+                    <a href="#" class="hover:text-brightRed">قیمت ها</a>
+                    <a href="#" class="hover:text-brightRed">محصولات</a>
+                    <a href="#" class="hover:text-brightRed">درباره ما</a>
+                </div>
+                <div class="flex flex-col space-y-3 text-white">
+                    <a href="#" class="hover:text-brightRed">فرصت های شغلی</a>
+                    <a href="#" class="hover:text-brightRed">تماس با ما</a>
+                    <a href="#" class="hover:text-brightRed">قوانین و مقررات</a>
+                </div>
+            </div>
+
+            <!-- Input Container -->
+            <div class="flex flex-col justify-between">
+                <form action="">
+                    <div class="flex space-x-3 space-x-reverse">
+                        <input type="text" class="flex-1 px-4 py-1 rounded-full focus:outline-none" placeholder="ایمیل خود را وارد کنید">
+                        <button class="px-6 py-1 text-white rounded-full bg-brightRed hover:bg-brightRedLight focus:outline-none text-center">
+                            ثبت
+                        </button>
+                    </div>
+                </form>
+                <div class="hidden text-white md:block">
+                    copyright &copy: 2022, all Right Reserved
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
