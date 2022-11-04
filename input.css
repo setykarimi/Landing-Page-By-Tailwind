@@ -71,7 +71,7 @@ body{
 }
 
 .open .hamburger-middle{
-    display: none;
+    width: 0;
 }
 
 
